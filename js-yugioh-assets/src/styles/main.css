@@ -34,9 +34,11 @@
 }
 
 .container__left {
+    border: 1px solid red;
     width: 35%;
     min-width: 300px;
     flex-direction: column;
+    display: flex;
     align-items: center;
     justify-content: space-around;
 }
@@ -118,4 +120,12 @@
     height: 11.2rem;
     width: 8rem;
     border-radius: 8px;
+}
+
+.card {
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.2);
 }
